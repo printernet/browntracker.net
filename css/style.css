@@ -1,4 +1,10 @@
 body {
-  background-color: #8b8b8b !important;
-  color: #333333 !important;
+  background-color: #8b8b8b;
+  color: #333333;
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.6rem;
+  }
 }
