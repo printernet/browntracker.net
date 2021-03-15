@@ -2,9 +2,16 @@ body {
   background-color: #8b8b8b;
   color: #333333;
 }
-
-@media only screen and (max-width: 400px) {
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 500px) {
   h1 {
     font-size: 1.6rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
   }
 }
