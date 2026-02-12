@@ -1,11 +1,77 @@
 body {
   background-color: #8b8b8b;
   color: #333333;
+  font-family: 'Arial', 'Helvetica', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sigmar One', 'Cooper Black', 'Arial Black', cursive;
+  font-weight: 900;
+}
+
 img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Ween.live CTA Styles */
+.weenlive-cta {
+  background: linear-gradient(135deg, 
+    #ff8c00 0%,      /* Orange */
+    #9370db 20%,     /* Purple */
+    #008080 40%,     /* Teal */
+    #8b4513 60%,     /* Brown */
+    #2e8b57 80%,     /* Green */
+    #ff8c00 100%     /* Orange */
+  );
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.weenlive-cta .cta-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+.weenlive-cta .cta-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.weenlive-cta h2 {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.weenlive-cta p {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  line-height: 1.6;
+}
+
+.weenlive-cta .highlight {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.weenlive-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  display: block;
+}
+
 @media only screen and (max-width: 500px) {
   h1 {
     font-size: 1.6rem;
@@ -13,5 +79,18 @@ img {
   img {
     width: 100%;
     height: auto;
+  }
+  
+  .weenlive-cta {
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  .weenlive-cta h2 {
+    font-size: 1.4rem;
+  }
+  
+  .weenlive-cta p {
+    font-size: 1rem;
   }
 }
